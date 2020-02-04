@@ -1,0 +1,10 @@
+IF
+Global("CbSpawnDSACK_Starter","AR0020",0)
+THEN
+RESPONSE #100
+SetGlobal("CbSpawnDSACK_Starter","AR0020",1)
+CreateCreatureOffScreen("CBBDSTRT",0)
+Continue()
+END
+
+

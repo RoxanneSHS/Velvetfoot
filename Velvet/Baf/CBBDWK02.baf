@@ -1,0 +1,14 @@
+IF
+OR(2)
+IsOverMe([GOODCUTOFF])
+Entered([GOODCUTOFF])
+THEN
+RESPONSE #100
+SetGlobal("CbBlueDragonAlerted","GLOBAL",1)
+DisplayString(LastTrigger,@550606)
+Wait(4)
+DisplayStringNoName(Myself,@550605)
+TriggerActivation(Myself,FALSE)
+END
+
+

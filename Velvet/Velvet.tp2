@@ -1,0 +1,85 @@
+BACKUP ~Velvet/backup~
+AUTHOR ~Roxanne@baldursextendedworld.com based on a quest from Charles Bisson's CtB~
+
+AUTO_TRA ~Velvet/TRA/~
+
+VERSION ~v0.1~
+
+LANGUAGE ~English~ ~english~ ~Velvet/TRA/setup.tra~
+
+BEGIN ~Velvetfoot~
+
+APPEND ~MASTAREA.2DA~
+~AR3520  value~
+
+COPY ~Velvet/are~ ~override~
+COPY ~Velvet/cre~ ~override~
+
+LAF sc#addWmpAre
+  INT_VAR
+    mapIcon = 17
+    xCoord = 2822
+    yCoord = 2060
+  STR_VAR
+    areName = ~ar3520~
+    strName = "Stormhorns"
+    strDesc = "Stormhorns"
+END
+
+
+ACTION_IF FILE_EXISTS ~Worldmap/map_mods_areas.tbl~ THEN BEGIN
+    COPY ~Worldmap/map_mods_areas.tbl~  ~Worldmap~
+     APPEND_FILE ~Velvet/Worldmap/3520areas.tbl~
+END
+  ELSE BEGIN
+    MKDIR ~Worldmap~
+    COPY ~Velvet/Worldmap/3520areas.tbl~ ~Worldmap/map_mods_areas.tbl~
+END
+
+ACTION_IF FILE_EXISTS ~Worldmap/map_mods_links.tbl~ THEN BEGIN
+    COPY ~Worldmap/map_mods_links.tbl~  ~Worldmap~
+    APPEND_FILE ~Velvet/Worldmap/3520.tbl~
+  END
+  ELSE BEGIN
+    MKDIR ~Worldmap~
+    COPY ~Velvet/Worldmap/3520.tbl~ ~Worldmap/map_mods_links.tbl~
+END
+
+ACTION_IF FILE_EXISTS ~Worldmap/map_mods_trans.tra~ THEN BEGIN
+     COPY ~Worldmap/map_mods_trans.tra~  ~Worldmap~
+     APPEND_FILE_EVALUATE ~Velvet/Worldmap/%LANGUAGE%/3520.tra~
+   END
+  ELSE BEGIN
+    MKDIR ~Worldmap~
+    COPY ~Velvet/Worldmap/%LANGUAGE%/3520.tra~ ~Worldmap/map_mods_trans.tra~
+END
+
+COMPILE ~Velvet/baf~
+EXTEND_TOP ~ar0020.bcs~ ~Velvet/Itm/ar0020.baf~
+COMPILE ~Velvet/d~
+
+COPY ~Velvet/Itm/CBSHLDWK.ITM~ ~override~
+  SAY NAME2 @650512
+  SAY DESC @650513
+COPY ~Velvet/Itm/CBSNWMDN.ITM~ ~override~
+  SAY NAME2 @650514
+  SAY DESC @650515
+COPY ~Velvet/Itm/CB2HAXE3.ITM~ ~override~
+  SAY NAME2 @650005
+  SAY DESC @650006
+COPY ~Velvet/Itm/CBBDAW01.CRE~ ~override~ 
+  SAY NAME1 @19
+  SAY NAME2 @20
+COPY ~Velvet/Itm/CBBDSCLE.ITM~ ~override~
+  SAY NAME1 @650114
+  SAY NAME2 @650114
+  SAY UNIDENTIFIED_DESC @650116
+  SAY DESC @650116 
+COPY ~Velvet/Itm/CBBDTOTH.ITM~ ~override~
+  SAY NAME1 @650117
+  SAY NAME2 @650118
+  SAY UNIDENTIFIED_DESC @650119
+  SAY DESC @650120
+  SAY 0x13e @650121
+  
+

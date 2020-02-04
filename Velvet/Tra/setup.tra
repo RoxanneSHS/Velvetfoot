@@ -1,0 +1,61 @@
+@19 = ~Darammareth S'ooloun Crommadar Ammanth Kuleera~
+@20 = ~Blue Dragon~
+@550603 = ~The wind tears your feet from under you, and you hold on for dear life, praying that you do not fall off the edge.~
+@550604 = ~The tree's roots have loosened the shale, and you stumble, making enough noise to wake a dragon.~
+@550605 = ~You suddenly have a sense of imminent danger.  The noise you just made alerted anyone within miles of these mountains.~
+@550606 = ~Climbing up the steep incline, your foot slips on the pieces of loose rock.~
+@550607 = ~The ground gives way, sending rock and debris down the cliff to your west.~
+@550608 = ~Rocks tumble over the edge, making loud echos as the stones plummet down the cliff walls.~
+@650005 = ~Two Handed Axe of Resistance +3~
+@650006 = ~This mighty weapon consists of a four- to five-feet haft with a very heavy blade.  The axe may be double-bitted, with blades on both sides of the haft, or it may only have a single blade.  It is an unwieldy weapon, but a skilled warrior can strike blows of tremendous strength with it.  Dwarven runes have been etched into the giant blade to further enhance the axe.
+
+STATISTICS:
+
+Damage: 1d10 + 3
+THAC0: +3
+Equiping Bonuses:
+  +10% Magic Resistance
+  +10% Slashing Resistance
+  +10% Piercing Resistance
+  +10% Crushing Resistance
+  +10% Missile Resistance
+  +2 Bonus to all saving throws
+Damage Type: Slashing
+Weight: 10
+Speed Factor: 9
+Proficiency Type: Axe
+Type: Two-Handed
+Requires: 10 Strength~
+@650114 = ~Blue Dragon Scales~
+@650116 = ~The scales were "donated" to you by Darammareth S'ooloun Crommadar Ammanth Kuleera, a blue dragon you defeated during a Feint of Honor against her in the Sunset Mountains.  The scales crackle with static energy when touched.  Legend has it they may be able to be forged into powerful armor.~
+
+@650117 = ~Dragon Tooth~
+@650118 = ~Tooth of Darammareth S'ooloun Crommadar Ammanth Kuleera~
+@650119 = ~A large, sixteen inch long fang, obviously from a dragon.  There is a crack at its tip, and the tooth is hollow.~
+@650120 = ~This is the tooth given to you by Darammareth S'ooloun Crommadar Ammanth Kuleera.  With it, you can summon her to your aid, as per the agreement you made prior to entering a Feint of Honor with the elder blue dragon.  The tooth is hollow, and a small hole at its tip can be blown through.  By using the tooth as a horn of sorts, the dragon will hear your call, and should come to you within a few moments.~
+@650121 = ~You blow through the horn, which emits a strange sound, similar to that of a poorly tuned pipe organ.  There is no immediate effect.~
+@650512 = ~Waukeen's Defender~
+@650513 = ~A number of these shields can be found in Waukeen's temples throughout Faerûn.  The Church crafts these shields to sell to enterprising adventurers.  In exchange for the powers of the device, the bearer is required to keep the front of the shield uncovered and in its original state.  If the owner does not comply, the shield's powers fail.  In this way, dozens of adventurers walk the Realms bearing the golden face of Waukeen on their arm.
+
+STATISTICS:
+
+Armor Class Bonus: +3
+Saving Throw Bonus: +2
+Magic Resistance: +10%
+Weight: 4~
+
+@650514 = ~The Snow Maiden's Reaver~
+@650515 = ~The only material parts of this icy weapon are the hilt, grip, and pommel, wrought from shining silver and steel.  It was created in 1099 DR by the chosen of Auril, Ihanora the Merciful.  Ihanora roamed the north, leading ruthless attacks against all those who attempted to find solace from the cold or fight its effects.  She traveled with a motley crew of yetis, polar worms, frost giants, and a white dragon, freezing everything in her wake.  Ihanora was defeated in 1108 by the notorious Red Mask Brigade, headed by the ruthless killer known as Bitter Harley.
+
+STATISTICS:
+
+Damage: 2d4 + 2
+THAC0: +2
+Special:  
+  2% chance of turning the target to solid ice
+Damage Type:  Cold
+Weight: 10
+Speed Factor: 6
+Proficiency Type: Bastard Sword
+Type: One-Handed
+Requires: 9 Strength~

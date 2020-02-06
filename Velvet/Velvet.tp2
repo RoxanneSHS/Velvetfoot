@@ -56,6 +56,7 @@ END
 
 COMPILE ~Velvet/baf~
 EXTEND_TOP ~ar0020.bcs~ ~Velvet/Itm/ar0020.baf~
+EXTEND_BOTTOM ~baldur.bcs~ ~Velvet/Itm/help.baf~
 COMPILE ~Velvet/d~
 
 COPY ~Velvet/Itm/CBSHLDWK.ITM~ ~override~
@@ -69,6 +70,9 @@ COPY ~Velvet/Itm/CB2HAXE3.ITM~ ~override~
   SAY DESC @650006
 COPY ~Velvet/Itm/CBBDAW01.CRE~ ~override~ 
   SAY NAME1 @19
+  SAY NAME2 @20
+COPY ~Velvet/Itm/CBBDHELP.CRE~ ~override~ 
+  SAY NAME1 @19    
   SAY NAME2 @20
 COPY ~Velvet/Itm/CBBDSCLE.ITM~ ~override~
   SAY NAME1 @650114

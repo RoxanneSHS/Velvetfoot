@@ -26,6 +26,23 @@ Speed Factor: 9
 Proficiency Type: Axe
 Type: Two-Handed
 Requires: 10 Strength~
+@650111 = ~Blue Dragon Plate~
+@650112 = ~The light but durable scales of the Blue Dragon provide excellent protection against weapons and all forms of electricity.
+
+STATISTICS:
+
+Armor Class: -1
+  +90% resistance to all lightning and electrical attacks
+Weight: 20
+Requires: 15 Strength~
+@650113 = ~The light but durable scales of Darammareth S'ooloun Crommadar Ammanth Kuleera, known as Velvetfoot, provides better protection against weapons and all forms of electricity than normal Blue Dragon Scale Armor.
+
+STATISTICS:
+
+Armor Class: -2
+  100% resistance to all lightning and electrical attacks
+Weight: 17
+Requires: 12 Strength~
 @650114 = ~Blue Dragon Scales~
 @650116 = ~The scales were "donated" to you by Darammareth S'ooloun Crommadar Ammanth Kuleera, a blue dragon you defeated during a Feint of Honor against her in the Sunset Mountains.  The scales crackle with static energy when touched.  Legend has it they may be able to be forged into powerful armor.~
 

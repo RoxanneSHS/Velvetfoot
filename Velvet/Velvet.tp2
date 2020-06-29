@@ -1,11 +1,12 @@
 BACKUP ~Velvet/backup~
 AUTHOR ~Roxanne@baldursextendedworld.com based on a quest from Charles Bisson's CtB~
 
-AUTO_TRA ~Velvet/TRA/~
+AUTO_TRA ~Velvet/TRA/%s~
 
-VERSION ~v0.1~
+VERSION ~v0.2~
 
-LANGUAGE ~English~ ~english~ ~Velvet/TRA/setup.tra~
+LANGUAGE ~English~ ~english~ ~Velvet/TRA/English/setup.tra~
+LANGUAGE ~Russian (by Arcanecoast.ru)~ ~russian~ ~Velvet/TRA/Russian/setup.tra~
 
 BEGIN ~Velvetfoot~
 
